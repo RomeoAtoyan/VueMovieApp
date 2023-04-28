@@ -19,4 +19,11 @@ nav {
   color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 80%;
+    text-align: center;
+  }
+}
 </style>

@@ -113,4 +113,18 @@ button:last-child:hover {
   color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .page-buttons {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #1f1f1f;
+    padding: 5px;
+    border-radius: 12px;
+  }
+}
 </style>

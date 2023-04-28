@@ -72,6 +72,16 @@ img {
   margin-top: 5px;
   border-radius: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+  .movie-container {
+    width: 350px !important;
+  }
+
+  .movie-right {
+    width: 100%;
+  }
+}
 </style>
 
 <!-- https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg -->

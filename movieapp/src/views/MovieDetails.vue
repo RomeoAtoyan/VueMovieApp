@@ -26,7 +26,6 @@ import { onBeforeMount, ref } from "vue";
 import { useRoute } from "vue-router";
 import "animate.css";
 
-
 export default {
   setup() {
     const movie = ref({});
@@ -84,5 +83,21 @@ export default {
 p {
   font-weight: bold;
   font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+  }
+
+  .banner h1 {
+    font-size: 70px;
+  }
+
+  .movie-info {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
 }
 </style>
